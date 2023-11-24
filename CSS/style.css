@@ -9,23 +9,15 @@ body{
 background-image: radial-gradient(blue,red,blue,red);
 background-repeat: no-repeat;
 height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .M2Seconds{
     border: solid;
     border-radius: 8px;
     color: black;
-    width: 30%;
-    height: 30%;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     background-image: linear-gradient(white,black);
-    
-
-
 }
 button{
 margin: 5px;
